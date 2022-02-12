@@ -1,0 +1,147 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body{
+ 	font-family: 'Open Sans', sans-serif;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ .header{
+ 	 width: 100%;
+ 	 background-color: white;
+ }
+.container{
+	width: 1140px;
+	background-color: white;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+.menu-btn{
+	margin-top: 16px;
+}
+.menu-btn button{
+	background-color: #2e367d;
+	padding: 10px 20px;
+	color: white;
+	border: none;
+}
+.menu-btn button:hover{
+	background-color: #0099DD;
+	transition: .4s;
+}
+.footer{
+	width: 100%;
+	background-color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.footer-row{
+	display: flex;
+}
+.footer-01, .footer-02, .footer-03, .footer-04{
+	flex-basis: 25%;
+	margin-right: 16px;
+}
+.f-title{
+	font-size: 16px;
+	color: #1e266d;
+	margin-bottom: 16px;
+}
+.f-desc{
+	font-size: 16px;
+	color: #91a3bb;
+	line-height: 1.9;
+}
+.links li{
+	list-style: none;
+	line-height: 1.9;
+}
+.links li a{
+	color: #91a3bb;
+	transition: 0.5s;
+}
+.links li a:hover{
+color: #1e266d;	
+margin-left: 8px;
+transition: 0.5s;
+}
+.address{
+	width: 100%;
+	background-color: white;
+    padding-top: 100px;
+}
+.address-row{
+	display: flex;
+	background-color: #2e367d;
+	padding: 80px 60px;
+	border-radius: 8px;
+	color: white;
+	line-height: 1.9;
+}
+.address-left, .address-right{
+	flex-basis: 50%;
+}
+.top{
+	margin-top: 10px;
+
+}
+.p-card{
+	width: 100%;
+	
+	padding-top: 80px;
+	padding-bottom: 60px;
+
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+
+}
+.card-row{
+	display: flex;
+}
+.p-left, .p-right{
+	flex-basis: 50%;
+} 
+.p-right{
+	margin-left: 70px;
+}
+.p-right h5{
+	color: #171f3c;
+	font-size: 24px;
+	font-weight: 300;
+}
+.p-right h2{
+	font-size: 45px;
+    color: #07324f;
+    font-weight: 700;
+}
+.p-right p{
+	color: #526375;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.View-btn{
+	background-color: #2e367d;
+	padding: 12px 22px;
+	color: white;
+	border: none;
+	border-radius: 8px;
+}
+.View-btn:hover{
+	background-color: #0099DD;
+	transition: .4s;
+}
